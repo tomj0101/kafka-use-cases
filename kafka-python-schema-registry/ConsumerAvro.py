@@ -13,7 +13,7 @@ if __name__ == "__main__":
     consumer = Consumer(**conf)
     topic = consumer.subscribe(['topic-example-200'])
 
-    schema_path = "user.avsc"
+    schema_path = "profile.avsc"
     schema = avro.schema.Parse(open(schema_path).read())
 
     try:

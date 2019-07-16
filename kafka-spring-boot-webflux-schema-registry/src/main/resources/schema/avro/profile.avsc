@@ -1,0 +1,20 @@
+{
+  "type": "record",
+  "name": "ProfileAvro",
+  "doc": "This is a sample Avro schema to get you started. Please edit",
+  "namespace": "com.github.tomj0101.springkafka.model.avro.gen",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "number1",
+      "type": "int"
+    },
+    {
+      "name": "number2",
+      "type": "float"
+    }
+  ]
+}
